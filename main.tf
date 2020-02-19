@@ -3,7 +3,7 @@
 #####
 
 locals {
-  application_version = "1.0.0"
+  application_version = "1.1.0"
   labels = {
     "app.kubernetes.io/name"       = "azure-health-exporter"
     "app.kubernetes.io/component"  = "exporter"
